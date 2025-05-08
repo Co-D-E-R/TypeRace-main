@@ -4,9 +4,13 @@
   "description": "",
   "main": "server.js",
   "type": "module",
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
-    "start": "nodemon backend/server.js",
-    "heroku-postbuild": "cd fronted && npm install && npm run build",
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js",
+    "heroku-postbuild": "cd fronted && npm install --production=false && npm run build",
     "build": "npm install & npm install --prefix fronted && npm run build --prefix fronted"
   },
   "keywords": [],
