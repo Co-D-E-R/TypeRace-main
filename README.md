@@ -1,5 +1,5 @@
 # TypeRace 
-Live Demo: [TypeRace](https://typerace-r522.onrender.com/)
+Live Demo: [TypeRace](https://typerace-app-d2b76aa3b5e7.herokuapp.com/)
 
 TypeRace is a multiplayer typing game built with React, Vite, and Node.js. Players can compete against each other to see who can type the fastest and most accurately.
 
